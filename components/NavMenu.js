@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 import ico1 from '/public/static/images/icon/icon-1.png'
 import ico2 from '/public/static/images/icon/icon-2.png'
@@ -45,18 +46,22 @@ const NavMenu = () => {
                         <div className="row">
                             <div className="col-lg-4">
                                 <div className="header__logo">
-                                    <a href="./index.html">
-                                        <Image src={logo} alt="" />
-                                    </a>
+                                    <Link href="/">
+                                        <a><Image src={logo} width="170" height='80' alt="" /></a>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="col-lg-8">
                                 <div className="header__options__nav">
                                     <nav className="header__menu mobile-menu">
                                         <ul>
-                                            <li className="active"><a href="./index.html">Home</a></li>
-                                            <li><a href="./about.html">Join</a></li>
-                                            <li><a href="./player.html">Login</a></li>
+
+                                            <li ><Link href="/join">
+                                                <a>Join</a>
+                                            </Link></li>
+                                            <li ><Link href="/login">
+                                                <a>Log In</a>
+                                            </Link></li>
 
                                         </ul>
                                     </nav>
@@ -64,7 +69,7 @@ const NavMenu = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="canvas__open"><i className="fa fa-bars"></i></div>
+                    <div className="canvas__open mt-5"><i className="fa fa-bars"></i></div>
                 </div>
             </header>
         </div>

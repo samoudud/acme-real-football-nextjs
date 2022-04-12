@@ -24,7 +24,7 @@ const FirstTeamSection = () => {
                     <div className="row">
                         <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="player__item">
-                                <div className="player__item__pic " style={{ backgroundImage: `url(${player1.src})` }}>
+                                <div className="player__item__pic " style={{ backgroundImage: `url(${player1.src})`, backgroundRepeat: 'no-repeat' }}>
                                     <div className="number"><span>01</span></div>
                                 </div>
                                 <div className="player__item__text">
@@ -35,7 +35,7 @@ const FirstTeamSection = () => {
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="player__item">
-                                <div className="player__item__pic" style={{ backgroundImage: `url(${player2.src})` }}>
+                                <div className="player__item__pic" style={{ backgroundImage: `url(${player2.src})`, backgroundRepeat: 'no-repeat' }}>
                                     <div className="number"><span>83</span></div>
                                 </div>
                                 <div className="player__item__text">
@@ -46,7 +46,7 @@ const FirstTeamSection = () => {
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="player__item">
-                                <div className="player__item__pic" style={{ backgroundImage: `url(${player3.src})` }}>
+                                <div className="player__item__pic" style={{ backgroundImage: `url(${player3.src})`, backgroundRepeat: 'no-repeat' }}>
                                     <div className="number"><span>36</span></div>
                                 </div>
                                 <div className="player__item__text">
@@ -57,7 +57,7 @@ const FirstTeamSection = () => {
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="player__item">
-                                <div className="player__item__pic " style={{ backgroundImage: `url(${player4.src})` }}>
+                                <div className="player__item__pic " style={{ backgroundImage: `url(${player4.src})`, backgroundRepeat: 'no-repeat' }}>
                                     <div className="number"><span>50</span></div>
                                 </div>
                                 <div className="player__item__text">
