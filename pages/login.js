@@ -29,7 +29,6 @@ const login = () => {
                                     <button className="btn btn-primary btn-lg btn-block" type="submit">Login</button>
 
                                     <hr className="my-4" />
-                                    <p>New to Dentist Point? </p>
 
                                     <button className="btn btn-lg btn-block btn-primary" style={{ backgroundColor: '#dd4b39' }} type="submit"><i className="fab fa-google me-2"></i> Sign in with google</button>
 
